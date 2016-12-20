@@ -11,4 +11,5 @@ jdk:
 build:
   ci:
     - java -version
+    - cd src/main/java
     - java com.mkyong.App
