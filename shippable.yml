@@ -1,0 +1,14 @@
+# Language setting
+language: java
+
+# Version number
+jdk:
+  - openjdk6
+  - openjdk7
+  - oraclejdk7
+  - oraclejdk8
+
+build:
+  ci:
+    - java -version
+    - java com.mkyong.App
