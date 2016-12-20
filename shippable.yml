@@ -12,5 +12,5 @@ build:
   ci:
     - java -version
     - mvn clean package
-    - cd src/main/java
+    - cd target/classes
     - java com.mkyong.App
